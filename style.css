@@ -58,6 +58,10 @@ h1 {
     /* Set font size to a large size */
 }
 
+.time {
+    font-size: 1rem;
+}
+
 /* Style the time separators */
 .colon {
     padding-left: 10px;

@@ -12,7 +12,7 @@
     var isRunning = false;
     var interval;
 
-    // This function increments the time by one second and updates the hour, minute, and second elements on the page
+    // This function increments the time by one 20 millisecond and updates the hour, minute, and second elements on the page
     let incrementTime = () => {
         // Parse the current values of the hour, minute, and second elements as integers
         let ms = Number.parseInt(millisecond.innerHTML) + 20,
